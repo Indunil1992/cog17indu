@@ -5,9 +5,9 @@ def handler(event, context):
     try:
         data = s3.list_objects(
             Bucket="as2-test-lahiru",
-            MaxKeys=10
-        print(data)   
+            MaxKeys=11
         )
+        print(data)
     except BaseException as e:
         print(e)
         raise(e)

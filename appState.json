@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "cog17indu.py",
         "cursor": {
-          "lineNumber": 9,
-          "column": 10
+          "lineNumber": 8,
+          "column": 23
         },
         "config": {
           "runtime": "python3.8",
@@ -26,6 +26,13 @@
         "testCases": {
           "a0811643-1a56-4c33-b536-87f3fb8d3294": {
             "id": "a0811643-1a56-4c33-b536-87f3fb8d3294",
+            "name": "Test event",
+            "functionId": "b4653ba5-79cc-4937-bdf9-9925a4152e12",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          },
+          "118c96fc-541b-439d-ba76-c1e94ba66156": {
+            "id": "118c96fc-541b-439d-ba76-c1e94ba66156",
             "name": "Test event",
             "functionId": "b4653ba5-79cc-4937-bdf9-9925a4152e12",
             "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
@@ -339,7 +346,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1587125464057
+    "lastSave": 1587126403273
   },
   "VCS_STATE": {
     "provider": "GitHub",
