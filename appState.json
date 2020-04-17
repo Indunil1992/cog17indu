@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "cog17indu.py",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 9,
+          "column": 10
         },
         "config": {
           "runtime": "python3.8",
@@ -22,7 +22,16 @@
           "layers": [],
           "name": "cog17indu"
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "a0811643-1a56-4c33-b536-87f3fb8d3294": {
+            "id": "a0811643-1a56-4c33-b536-87f3fb8d3294",
+            "name": "Test event",
+            "functionId": "b4653ba5-79cc-4937-bdf9-9925a4152e12",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -282,6 +291,17 @@
             ]
           }
         }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
       }
     },
     "customTemplate": {
@@ -319,7 +339,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1587124351460
+    "lastSave": 1587125464057
   },
   "VCS_STATE": {
     "provider": "GitHub",
